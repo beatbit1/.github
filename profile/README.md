@@ -1,14 +1,12 @@
-# Beatbit Deployment on BNB Chain: 
+# Beatbox Deployment on BNB Chain: 
 
-BeatBitMemecoin Token: https://testnet.bscscan.com/address/0x98A122918C8e042CF955f1B10A81EE63461F3cb7
+BeatBox Memecoin Token: https://testnet.bscscan.com/address/0x98A122918C8e042CF955f1B10A81EE63461F3cb7
 
 NFTMinting Contract: https://testnet.bscscan.com/address/0x93a152187D320228d18dBB666EEAEd7FD1dF0C37
 
 Staking Contract: https://testnet.bscscan.com/address/0x27AB4bDCAAd9347fECDd23d8Ff760896e48db5B7
 
-ExtendedLiquidityPool Contract: https://testnet.bscscan.com/address/0xC7cf4B4979973C54F3dd5944061665D6F157518e
-
-ThenaGaugeIntegration Contract: https://testnet.bscscan.com/address/0xC1f0b29e507363Bf4E4BcD090739d8fEE13711E2 
+ExtendedLiquidityPool Contract: https://testnet.bscscan.com/address/0xC7cf4B4979973C54F3dd5944061665D6F157518e 
 
 ExtendedDAO Contract: https://testnet.bscscan.com/address/0xA88673E0bb360078aaC24a201e9CAfE83ad8e3F0
 
@@ -18,7 +16,7 @@ CrossChainSwap Contract: https://testnet.bscscan.com/address/0x7b8Fc42045a163Af7
 
 # BeatBit
 
-BeatBit is a decentralized music platform revolutionizing the way creators and fans interact with music. By leveraging blockchain technology, BeatBit enables creators to release tracks as NFTs, engage fans in unique ways, and democratize the music production process. Fans can stake tokens to mine NFTs, participate in remix competitions, and earn rewards from album liquidity pools. Built on the BNB Chain, BeatBit integrates Thena for governance and Sonorous for enhancing the music experience.
+BeatBox is a decentralized music platform revolutionizing the way creators and fans interact with music. By leveraging blockchain technology, BeatBox enables creators to release tracks as NFTs, engage fans in unique ways, and democratize the music production process. Fans can stake tokens to mine NFTs, participate in remix competitions, and earn rewards from album liquidity pools. Built on the BNB Chain, BeatBit integrates Thena for governance and Sonorous for enhancing the music experience.
 
 ## Table of Contents
 
@@ -27,7 +25,6 @@ BeatBit is a decentralized music platform revolutionizing the way creators and f
 - [Architecture](#architecture)
 - [Getting Started](#getting-started)
 - [Integration](#integration)
-  - [Thena](#thena)
   - [Sonorous](#sonorous)
   - [BNB Chain](#bnb-chain)
 - [Usage](#usage)
@@ -46,6 +43,7 @@ BeatBit envisions a world where music creation and appreciation are democratized
 - **Cross-Chain Functionality:** Seamless token swaps across different blockchain networks.
 - **Studio Music Production:** An integrated studio for music production, allowing live collaborations and NFT minting.
 - **Live Streaming Collaboration:** Real-time music creation sessions where fans can participate and provide feedback.
+- AI Muaic suggestion: a featrure that suggest lyrics and music to users
 
 ## Architecture
 
@@ -61,12 +59,10 @@ BeatBit is built on a multi-layered architecture that integrates smart contracts
 - Hardhat or Truffle for smart contract development
 - A web3-compatible wallet (e.g., MetaMask)
 
-## Integration
-- **Thena**
-BeatBit integrates Thena’s ve3,3 gauge voting system to empower community governance. This integration allows users to lock tokens, participate in governance by voting on proposals, and influence the direction of the platform.
+## Integration.
 
 - **Sonorous**
-Sonorous enhances the BeatBit experience by providing real-time data feeds and notifications related to music events, competitions, and live collaborations. This integration helps keep the community engaged and informed.
+Sonorous enhances the BeatBox experience by providing real-time data feeds and notifications related to music events, competitions, and live collaborations. This integration helps keep the community engaged and informed.
 
 - **BNB Chain**
 The BNB Chain is the foundational blockchain for BeatBit, providing fast and low-cost transactions, making it ideal for NFT minting, staking, and liquidity pool operations. BNB Chain’s compatibility with Ethereum tools and wallets makes it easy for developers and users alike to interact with the platform.
